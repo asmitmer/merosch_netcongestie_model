@@ -17,7 +17,7 @@ import plotly.graph_objects as go
 import json
 
 
-dash.register_page(__name__, path='/totaal', name="Totaal", order=3)
+dash.register_page(__name__, path='/totaal', name="Test", order=3)
 
 ####################### HISTOGRAM ###############################
 def create_figuur(data_warmte_ventilatie_stored, data_gb_stored):
